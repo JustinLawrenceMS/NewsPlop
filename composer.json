@@ -1,0 +1,11 @@
+{
+
+    	"autoload": {
+		"psr-4": {
+			"Plop\\Plopinator\\": "inc/classes"
+		}
+	},	
+	"require": {
+		"guzzlehttp/guzzle": "^7.3"
+    	}
+}
