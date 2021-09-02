@@ -40,8 +40,7 @@ class Plopper
 		    $news = json_decode($response->getBody(), true);
 
 
-//	    return print_r($news['value'][0]['image']['contentUrl']);
-		    
+    
 		    for($j=0; $j<count($news['value']); $j++){
 
 	
@@ -78,7 +77,6 @@ class Plopper
 
 
 
-//		    return print_r($post);
 			    
 			    wp_set_post_terms( get_the_ID(), [0], 'Industry News', false );
 
@@ -87,9 +85,7 @@ class Plopper
 			    wp_insert_post($post);
 
 		    }          
-
-//		    update_post_meta(get_the_ID(), 'imgkey', $image);
-	    
+ 
 
 		    unset($http);
 
@@ -107,14 +103,6 @@ class Plopper
 
     }
 
-/*	public function register($atts, $content = null)
-
-	{
-
-		return 'Today is ' . date("d/m/Y");
-
-	}
- */
 	public function init()
 
 	{
