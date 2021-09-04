@@ -4,11 +4,11 @@ Takes news from Bing and plops it onto a Wordpress Blog
 
 This is a working example of an ongoing project.  To use it, you need a Bing Search API key, which you can get from Azure.
 
+Then navigate to your plugins folder and clone the repo.
+
 Then you need to add the API key to database.  The option is called ``bing_api_key`` and it lives in the wp_options table.  
 
 You will need composer and you will need to run ``composer install``
-
-Then navigate to your plugins folder and clone the repo.
 
 After that, go to your plugins page in your admin portal and activate the plugin.
 
