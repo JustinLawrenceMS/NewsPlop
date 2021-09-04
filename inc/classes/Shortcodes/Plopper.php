@@ -18,6 +18,9 @@ class Plopper
 		    'Ocp-Apim-Subscription-Key' => $myKey
 
 	    ];
+            
+
+            /* Change the variables below and the terms are a to change your search terms. Each term is searched one time.  */
 
 	    $terms = [
 		    'nerd',
