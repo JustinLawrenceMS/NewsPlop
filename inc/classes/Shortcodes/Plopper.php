@@ -20,9 +20,9 @@ class Plopper
 	    ];
 
 	    $terms = [
-		    'i\'m gonna get you sucka',
-		    'ahab',
-		    'mmmm juicy fruit'
+		    'nerd',
+		    'dork',
+		    'geek'
 	    ];
 
 
