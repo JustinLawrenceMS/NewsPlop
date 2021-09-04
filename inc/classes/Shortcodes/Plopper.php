@@ -6,12 +6,11 @@ namespace Plop\Plopinator\Shortcodes;
  *  * This is the class responsible for the 'display_todays_date' shortcode.
  *   */
 class Plopper 
-{
-    
+{   
 	public function register(){
 
 
-		$myKey = get_option('bing_api_key');
+	    $myKey = get_option('bing_api_key');
 
 	    $headers = [
     
@@ -20,9 +19,9 @@ class Plopper
 	    ];
             
 
-            /* Change the variables below to change the search terms. 
-               The terms to change your search terms. 
-               Each term is searched one time.  */
+            /* Change this to change subject matter of search results.
+               The $terms array is where your searchterms live. 
+               Each term is searched one time and retrieves multiple results.  */
 
 	    $terms = [
 		    'nerd',
