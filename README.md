@@ -14,6 +14,6 @@ After that, go to your plugins page in your admin portal and activate the plugin
 
 Create a new post but *** important *** do not publish.  Type a shortcode called ``[plopper][/plopper]`` Until I get time to do a more permanent fix, preview this page, to run the plug-in.
 
-Checked your posts page on your admin portal for unpublished posts.  Your search results should be there.  Then just publish them.
+Check your posts page on your admin portal for unpublished posts.  Your search results should be there.  Then just publish them.
 
 ### TODO Build interface in admin portal, drop shortcode hooks and use correct hooks.
