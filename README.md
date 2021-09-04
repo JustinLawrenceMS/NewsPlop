@@ -6,6 +6,8 @@ This is a working example of an ongoing project.  To use it, you need a Bing Sea
 
 Then you need to add the API key to database.  The option is called ``bing_api_key`` and it lives in the wp_options table.  
 
+You will composer and you will to run ``composer install``
+
 Then navigate to your plugins folder and clone the repo.
 
 After that, go to your plugins page in your admin portal and activate the plugin.
