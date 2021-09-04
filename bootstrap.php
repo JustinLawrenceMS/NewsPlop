@@ -1,13 +1,13 @@
 <?php
 /*
-Plugin Name: theNewsinator Grab From MSN
-Plugin URI: https://blog.buttered.app
+Plugin Name: NewsPlop NewsPlopper
+Plugin URI: https://buttered.app
 Description: This plugin is homegrown and it populates a blog with MSN news articles.
 Version: 1.0
 Author: Justin Lawrence
-Author URI: https://blog.buttered.app
+Author URI: https://buttered.app
 License: GPLv2 or later
-Text Domain: theNewsinator
+Text Domain: NewsPlop
  */
 
 
