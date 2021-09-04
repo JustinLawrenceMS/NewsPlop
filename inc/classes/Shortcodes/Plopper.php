@@ -20,7 +20,9 @@ class Plopper
 	    ];
             
 
-            /* Change the variables below and the terms are a to change your search terms. Each term is searched one time.  */
+            /* Change the variables below to change the search terms. 
+               The terms to change your search terms. 
+               Each term is searched one time.  */
 
 	    $terms = [
 		    'nerd',
