@@ -12,7 +12,7 @@ You will need composer and you will need to run ``composer install``
 
 After that, go to your plugins page in your admin portal and activate the plugin.
 
-Create a new post but *** important *** do not publish.  Type a shortcode called ``[plopper][/plopper]`` Until I get time to do a more permanent fix, preview this page, to run the plug-in.
+Create a new post but *** important *** do not publish.  Type a shortcode called ``[plopper][/plopper]`` Until I get time to do a more permanent fix, preview this page to run the plug-in.
 
 Check your posts page on your admin portal for unpublished posts.  Your search results should be there.  Then just publish them.
 
