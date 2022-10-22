@@ -5,9 +5,9 @@ namespace Plop\Plopinator\Shortcodes;
 /**
  *  * This is the class responsible for the 'rainbowplop' shortcode.
  *   */
-class Swab { 
+class Swabber { 
 
-	public function Swab ()
+	public function Swabber ()
 	
 	{
 
@@ -35,7 +35,7 @@ class Swab {
 
 	{
 
-		add_shortcode('swab', array($this, 'Swab'));
+		add_shortcode('swabber', array($this, 'Swabber'));
 
 	}
 
