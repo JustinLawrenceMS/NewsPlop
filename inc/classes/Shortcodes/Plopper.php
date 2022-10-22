@@ -7,7 +7,7 @@ namespace Plop\Plopinator\Shortcodes;
  *   */
 class Plopper 
 {   
-	public function register(){
+	public function Plopper(){
 
 
 	    $myKey = get_option('bing_api_key');
@@ -111,7 +111,7 @@ class Plopper
 
 	{
 
-		add_shortcode('plopper', array($this, 'register'));
+		add_shortcode('plopper', array($this, 'Plopper'));
 
 	}
 
