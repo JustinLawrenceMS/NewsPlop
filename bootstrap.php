@@ -20,9 +20,18 @@ use Plop\Plopinator\Shortcodes;
 use Plop\Plopinator\Plop;
 
 // // instantiate classes
-$shortcode = new Shortcodes\Plopper();
-$plugin    = new Plop();
+$shortcode1 = new Shortcodes\Plopper();
+$plugin1    = new Plop();
 // // register all shortcodes
-$plugin->addShortcode($shortcode);
+$plugin1->addShortcode($shortcode1);
 // // initialise the plugin
-$plugin->init();
+$plugin1->init();
+
+$shortcode2 	= new Shortcodes\RainbowPlop();
+
+$plugin2 	= new Plop();
+
+$plugin2->addShortcode($shortcode2);
+
+$plugin2->init();
+

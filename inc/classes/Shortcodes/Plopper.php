@@ -3,7 +3,7 @@
 namespace Plop\Plopinator\Shortcodes;
 
 /**
- *  * This is the class responsible for the 'display_todays_date' shortcode.
+ *  * This is the class responsible for the 'plopper' shortcode.
  *   */
 class Plopper 
 {   
