@@ -22,10 +22,10 @@ use Plop\Plopinator\Plop;
 // // instantiate classes
 $plopper = new Shortcodes\Plopper();
 $swabber = new Shortcodes\Swabber();
-$NewsPlop = new Plop();
+$newsPlop = new Plop();
 // // register all shortcodes
-$NewsPlop->addShortcode($plopper);
-$NewsPlop->addShortcode($swabber);
+$newsPlop->addShortcode($plopper);
+$newsPlop->addShortcode($swabber);
 
-$NewsPlop->init();
+$newsPlop->init();
 
