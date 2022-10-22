@@ -20,17 +20,12 @@ use Plop\Plopinator\Shortcodes;
 use Plop\Plopinator\Plop;
 
 // // instantiate classes
-$shortcode1 = new Shortcodes\Plopper();
-$plugin1    = new Plop();
+$plopper = new Shortcodes\Plopper();
+$swabber 	= new Shortcodes\Swabber();
+$NewsPlop    = new Plop();
 // // register all shortcodes
-$plugin1->addShortcode($shortcode1);
-// // initialise the plugin
-$plugin1->init();
+$NewsPlop->addShortcode($plopper);
+$NewsPlop->addShortcode($swabber);
 
-$shortcode2 	= new Shortcodes\Swabber();
-$plugin2 	= new Plop();
-
-$plugin2->addShortcode($shortcode2);
-
-$plugin2->init();
+$NewsPlop->init();
 
