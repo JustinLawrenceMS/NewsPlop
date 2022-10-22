@@ -27,8 +27,7 @@ $plugin1->addShortcode($shortcode1);
 // // initialise the plugin
 $plugin1->init();
 
-$shortcode2 	= new Shortcodes\RainbowPlop();
-
+$shortcode2 	= new Shortcodes\Swabber();
 $plugin2 	= new Plop();
 
 $plugin2->addShortcode($shortcode2);
