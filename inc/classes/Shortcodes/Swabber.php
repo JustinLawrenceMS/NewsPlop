@@ -3,7 +3,7 @@
 namespace Plop\Plopinator\Shortcodes;
 
 /**
- *  * This is the class responsible for the 'rainbowplop' shortcode.
+ *  * This is the class responsible for the 'swabber' shortcode.
  *   */
 class Swabber { 
 
