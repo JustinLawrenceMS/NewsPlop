@@ -3,8 +3,8 @@
 namespace Plop\Plopinator\Shortcodes;
 
 /**
- *  * This is the class responsible for the 'swabber' shortcode.
- *   */
+ * This is the class responsible for the 'swabber' shortcode.
+ */
 class Swabber { 
 
 	public function Swabber ()
