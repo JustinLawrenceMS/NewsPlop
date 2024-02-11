@@ -28,4 +28,4 @@ $newsPlop->addShortcode($plopper);
 $newsPlop->addShortcode($swabber);
 
 $newsPlop->init();
-
+?>
